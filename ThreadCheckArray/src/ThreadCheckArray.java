@@ -74,7 +74,7 @@ public class ThreadCheckArray implements Runnable
 				winArray[array.size() - 1] = true;
 			synchronized (sd) 
 			{
-				sd.setWinArray(winArray);
+				sd.setWinArray(winArray); 
 			}	
 		}
 	}
